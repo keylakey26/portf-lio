@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="img/Foto de perfil.png" alt="avatar da Keyla" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Sou Keyla Akemy</p>
+        <h1>Sou aluna de Programação</h1>
+        <p>Sou estudante do Ensino Médio e Curso o itinerário formativo de matemática 
+        e suas tecnologias. Aprendo sobre Matemática II (programação) e Scracth, HTML, JavaScript e CSS.</p>
+        <p>Minhas habilidades</p>
+        <div>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+    </header>
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- Projeto 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Nave.png" class="card-img-top" alt="Imagem do projeto Jogo da Nave">
+                    <div class="card-body">
+                        <h5 class="card-title">Jogo da Nave</h5>
+                        <p class="card-text">É um jogo que desenvolvi enquanto frequentava o curso extra curricular Eduthc, o jogo envolve
+                            naves e invsadores tentando chegar à Terra.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Cripitografia.png" class="card-img-top" alt="Imagem do projeto Cripitografia de César">
+                    <div class="card-body">
+                        <h5 class="card-title">Cripitografia de César</h5>
+                        <p class="card-text">Esse jogo possui um código para criar a sua
+                            propría criptográfia ou utilizar a que já está lá. a famosa criptografia de Julho César.</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/Regra de três.png" class="card-img-top" alt="Imagem do projeto Medidas da Receita">
+                    <div class="card-body">
+                        <h5 class="card-title">Medidas da Receita
+                        </h5>
+                        <p class="card-text">Nesse “jogo” você consegue multiplicar ou 
+                            dvidir a sua receita e seus ingredientes para conseguir a quantidade desejada.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal 1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Jogo da Nave</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Esse jogo traz uma estética "antiga" e pixelada, com um ar de infância para muitos adultos,
+                        a mecânica clássica de jogos de naves no espaço combatendo extraterrestres, mas dessa 
+                        vez com uma dinâmica rápida e um código mais leve e de fácil interpretação. </p>
+                    <p>Nesse jogo, você tem que defender a Terra de invasores e impedir que mais deles cheguem na Terra, 
+                        os derrubando ainda no espaço.</p>
+                    <p>A maior vantagem de usar o Scratch nessa produção foi a sua linguagem simples que facilita tanto
+                        a programação quanto a divulgação entre as crianças e jovens que buscam adentrar no mundo dos códigos.</p>
+                    <p>Foi meu primeiro jogo que programei e aperfeiçoei, continua sendo o meu jogo favorito até 
+                        os dias de hoje, não somente por memória afetiva com o passado, mas pela diversão e imersão
+                        que trazem uma competitividade saudável entre eu e meus amigos.</p>
+                    <img src="img/Nave.png" class="img-fluid w-100"
+                        alt="Imagem do projeto">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/893516310/">Ver projeto ao vivo</a>
+                    <a href="https://scratch.mit.edu/projects/893516310/editor/">Ver código do projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal 2 -->
+    <div class="modal" id="modal2" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Cripitografia de César</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto consiste em trazer de forma lúdica e dinâmica a ideia de mensagem secreta e uma parte
+                        da história da Roma antiga e como os povos que nos antecederam faziam para se comunicar durante
+                        conflitos ou para conversarem "em particular".
+                    </p>
+                    <p>Nele, os jovens aprendem o que é e como fazer a sua própria criptografia, deixando uma escolha
+                        pessoal seguir ou não o exemplo da criptografia mais famosa no mundo, a criptografia do imperador
+                        romano Júlio César.</p>
+                    <p>A maior vantagem de usar o Scratch nessa produção foi a sua linguagem simples que facilita tanto 
+                        a programação quanto a divulgação entre as crianças e jovens que buscam adentrar no mundo dos códigos.</p>
+                    <p>Lembro-me de quando estava programando, quando mais jovem, e girar uma engrenagem em minha cabeça e me
+                        ajudar a desenvolver o pensamento lógico e racional sobre como interpretar informações secretas e os alunos
+                        podem "brincar" trocando mensagens e tentando desvendar a frase escondida através de um quebra-cabeça.
+                    </p>
+                    <img src="img/Cripitografia.png" class="img-fluid w-100"
+                        alt="Imagem a do projeto ">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/692576365/">Ver projeto ao
+                        vivo</a>
+                    <a href="https://scratch.mit.edu/projects/692576365/editor/">Ver código do
+                        projeto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal" id="modal3" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Medidas da Receita</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>O projeto busca uma forma lúdica e criativa de apresentar a regra de três em um uso cotidiano
+                        quando vamos cozinhar e queremos aumentar ou diminuir uma receita e para isso temos que saber
+                        a quantidade de cada ingrediente.</p>
+                    <p>A maior vantagem de usar o Scratch nessa produção foi a sua linguagem simples que facilita tanto
+                        a programação quanto a divulgação entre as crianças e jovens que buscam adentrar no mundo dos códigos.</p>
+                    <p>Lembro-me de ter sido um pouco difícil para aprender a regra de três e aplicá-la corretamente em questões
+                        diferenciadas, e com esse jogo, após entender a regra de três por completo para a programação do "Medidas
+                        de Receita", me senti finalmente confiante de que sabia como usar a regra de três nas provas e no meu
+                        cotidiano.</p>
+                    <img src="img/Regra de três.png" alt="Projeto 3" class="img-fluid w-100">
+                </div>
+                <div class="modal-footer">
+                    <a href="https://scratch.mit.edu/projects/672123619/">Ver projeto ao vivo</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/keylakey26">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Alura e Keyla Akemy</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
